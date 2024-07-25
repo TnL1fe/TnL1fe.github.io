@@ -13,3 +13,9 @@
 
 - 随后返回google验证即可
 
+- 后续在作者大大的帮助下，js也可以很好的把blog喂给google了。可以[参考](https://github.com/Meekdai/Gmeek/issues/87#issuecomment-2249763145)
+
+```
+"allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script> <script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script> <meta name='google-site-verification' content='1VMjcA03zLI8aKEYQ3WOXgkTtOBe--5NNn6YKpeAxzQ' /> <script async src='https://www.googletagmanager.com/gtag/js?id=G-xxxxxx'></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-xxxxx');</script>",
+```
+
