@@ -1,5 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TnL1fe's Blog</title><link>https://TnL1fe.github.io</link><description>Gubba nub nub doo rahkah</description><copyright>TnL1fe's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/176481062?v=4</url><title>avatar</title><link>https://TnL1fe.github.io</link></image><lastBuildDate>Thu, 25 Jul 2024 03:06:06 +0000</lastBuildDate><managingEditor>TnL1fe's Blog</managingEditor><ttl>60</ttl><webMaster>TnL1fe's Blog</webMaster><item><title>域名体系记录</title><link>https://TnL1fe.github.io/post/yu-ming-ti-xi-ji-lu.html</link><description>- 整体的域名管理逻辑如下：&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TnL1fe's Blog</title><link>https://TnL1fe.github.io</link><description>Gubba nub nub doo rahkah</description><copyright>TnL1fe's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/176481062?v=4</url><title>avatar</title><link>https://TnL1fe.github.io</link></image><lastBuildDate>Thu, 25 Jul 2024 08:24:32 +0000</lastBuildDate><managingEditor>TnL1fe's Blog</managingEditor><ttl>60</ttl><webMaster>TnL1fe's Blog</webMaster><item><title>Gmeek 提交blog到 google</title><link>https://TnL1fe.github.io/post/Gmeek%20-ti-jiao-blog-dao-%20google.html</link><description>-  首先访问https://search.google.com/search-console/welcome&#13;
+- 建议使用网址前缀方案&#13;
+&lt;img width='763' alt='image' src='https://github.com/user-attachments/assets/37af19b3-15a1-4091-87fc-882d1b7f14f3'&gt;&#13;
+- 随后添加自己的blog地址&#13;
+- html标记的方式最为方便，直接在config.jso添加字符即可 &#13;
+&lt;img width='646' alt='image' src='https://github.com/user-attachments/assets/75012edd-64bf-46e5-b000-fbb06db3cde2'&gt;&#13;
+&#13;
+- 在allhead 字段直接添加对应字符即可&#13;
+&#13;
+```python&#13;
+'allHead':'&lt;script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'&gt;&lt;/script&gt; &lt;script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'&gt;&lt;/script&gt; &lt;meta name='google-site-verification' content='1VMjcA03zLI8aKEYQ3WOXgkTtOBe--5NNn6YKpeAxzQ' /&gt;',&#13;
+```&#13;
+&#13;
+- 随后返回google验证即可&#13;
+&#13;
+。</description><guid isPermaLink="true">https://TnL1fe.github.io/post/Gmeek%20-ti-jiao-blog-dao-%20google.html</guid><pubDate>Thu, 25 Jul 2024 08:24:10 +0000</pubDate></item><item><title>域名体系记录</title><link>https://TnL1fe.github.io/post/yu-ming-ti-xi-ji-lu.html</link><description>- 整体的域名管理逻辑如下：&#13;
 ![域名体系 drawio](https://github.com/user-attachments/assets/14ba485b-dd9d-488b-861b-9a2dc969162a)&#13;
 &#13;
 - 额外的说明下为什么要在 whois 当中记录 nameserver? 虽然 DNS 服务实现的域名和 IP 的解析，但是不可能每一台 DNS 系统的服务器都记录了这个世界上的 DNS 记录。</description><guid isPermaLink="true">https://TnL1fe.github.io/post/yu-ming-ti-xi-ji-lu.html</guid><pubDate>Thu, 25 Jul 2024 03:05:31 +0000</pubDate></item><item><title>this new day</title><link>https://TnL1fe.github.io/post/this%20new%20day.html</link><description>**hello world**。</description><guid isPermaLink="true">https://TnL1fe.github.io/post/this%20new%20day.html</guid><pubDate>Wed, 24 Jul 2024 15:53:13 +0000</pubDate></item></channel></rss>
